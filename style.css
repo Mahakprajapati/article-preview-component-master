@@ -108,9 +108,6 @@ h6{
 }
 
 @media(max-width:553px){
-    main{
-        height: unset;
-    }
     .container{
         max-width: none;
         grid-template-columns:none;
