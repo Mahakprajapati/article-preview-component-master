@@ -17,6 +17,7 @@ main{
     grid-template-columns: auto auto;
     background-color: #ffff;
     border-radius: 10px;
+    overflow: hidden;
     margin: 31px;
     position: relative;
 }
@@ -26,8 +27,6 @@ main{
 .image-container img{
     max-width:100%;
     height:100%;
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;
 }
 .avatar-text-container{
     display: flex;
@@ -109,9 +108,6 @@ h6{
 }
 
 @media(max-width:553px){
-    main{
-        height: unset;
-    }
     .container{
         max-width: none;
         grid-template-columns:none;
@@ -125,8 +121,6 @@ h6{
         right: unset;
         top: unset;
         padding: 1rem;
-        border-top-left-radius: 0;
-        border-top-right-radius: 0;
     }
     .social-container::after{
         content: none;
